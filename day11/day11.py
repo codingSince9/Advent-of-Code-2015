@@ -55,13 +55,13 @@ while True:
             twoSameChars = char
 
     if three and not forbiddenLetter and doubleLetter >= 2 and not secondPart:
-        print("Part 1:", password, 'AEEEEEEEEEEEEEEEEE')
+        print("Part 1:", password)
         passwordList = list(password)
         password = increment(password)
         secondPart = True
         continue
     if secondPart and three and not forbiddenLetter and doubleLetter >= 2:
-        print("Part 2:", password, 'AEEEEEEEEEEEEEEEEE')
+        print("Part 2:", password)
         break
 
     counter = 0
